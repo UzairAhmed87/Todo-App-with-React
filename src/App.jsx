@@ -45,7 +45,7 @@ function App() {
   return (
     <TodoProvider value={{ todos, addTodo, updatedTodo, deleteTodo, toggle }}>
       <div className="bg-[#172842] min-h-screen py-8 ]">
-        <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 text-red-600">
+        <div className="w-full max-w-2xl bg-gradient-to-br from-red-500 to-cyan-600 mx-auto shadow-md rounded-lg px-4 py-3 text-white">
           <h1 className="text-3xl font-bold text-center mb-8 mt-2 underline underline-offset-2">
             To-do List
           </h1>
